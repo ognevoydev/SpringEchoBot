@@ -1,0 +1,3 @@
+bot:
+  name: SpringEchoBot
+  token: ${BOT_TOKEN}

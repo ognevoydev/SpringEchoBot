@@ -1,0 +1,68 @@
+2022-12-28 11:27:26,639 INFO [main] Starting SpringechobotApplication using Java 18 with PID 18716 (C:\Users\User\Desktop\SpringEchoBot\target\classes started by User in C:\Users\User\Desktop\SpringEchoBot)
+2022-12-28 11:27:26,641 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2022-12-28 11:27:26,642 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:27:49,270 ERROR [main] Error occurred: Error removing old webhook
+2022-12-28 11:27:49,282 INFO [main] Started SpringechobotApplication in 23.36 seconds (process running for 24.541)
+2022-12-28 11:28:36,938 INFO [main] Starting SpringechobotApplication using Java 18 with PID 13200 (C:\Users\User\Desktop\SpringEchoBot\target\classes started by User in C:\Users\User\Desktop\SpringEchoBot)
+2022-12-28 11:28:36,951 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2022-12-28 11:28:36,952 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:28:59,893 ERROR [main] Error occurred: Error removing old webhook
+2022-12-28 11:28:59,912 INFO [main] Started SpringechobotApplication in 23.625 seconds (process running for 24.545)
+2022-12-28 11:31:21,039 INFO [main] Starting SpringechobotApplication using Java 18 with PID 19224 (C:\Users\User\Desktop\SpringEchoBot\target\classes started by User in C:\Users\User\Desktop\SpringEchoBot)
+2022-12-28 11:31:21,041 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2022-12-28 11:31:21,042 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:31:25,541 INFO [main] Started SpringechobotApplication in 5.162 seconds (process running for 6.057)
+2022-12-28 11:31:55,659 INFO [main] Starting SpringechobotApplication using Java 18 with PID 6232 (C:\Users\User\Desktop\SpringEchoBot\target\classes started by User in C:\Users\User\Desktop\SpringEchoBot)
+2022-12-28 11:31:55,661 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2022-12-28 11:31:55,663 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:31:58,017 INFO [main] Started SpringechobotApplication in 3.007 seconds (process running for 3.929)
+2022-12-28 11:34:00,505 ERROR [SpringEchoBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2022-12-28 11:34:22,061 ERROR [SpringEchoBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2022-12-28 11:37:02,836 INFO [main] Starting SpringechobotApplication using Java 18 with PID 1080 (C:\Users\User\Desktop\SpringEchoBot\target\classes started by User in C:\Users\User\Desktop\SpringEchoBot)
+2022-12-28 11:37:02,838 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2022-12-28 11:37:02,839 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:37:05,280 INFO [main] Started SpringechobotApplication in 3.1 seconds (process running for 4.013)
